@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 2px solid black;
+    /* filter: blur(1px); */
+    top: 0;
+    position: sticky;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.navleft{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 3vh;
+
+}
+.navright{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navright a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vh;
+}
+.navright a:hover{
+    text-decoration: underline;
+}
+.navleft h1{
+    margin-left: 7vw;
+}
+
+
+
+/* page 1 main items */
+
+.hero{
+
+    width: 100%;
+    height: 90vh;
+    /* filter: blur(1px); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("https://i.pinimg.com/originals/d8/1c/d3/d81cd358112fb782814e09e0b931c647.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+
+}
+.imgholder{
+    width: 60%;
+    height: 75vh;
+    background-image: url("images/navya1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    margin-right: 2vh;
+}
+
+.text{
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+}
+
+
+
+/* page 2 */
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    background-image: url("https://usagif.com/wp-content/uploads/gifs/starfall-gif-46.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.about{
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    background-color: transparent;
+    display: none;
+    /* filter: blur(1px); */
+}
+.about h1{
+    font-size: 5vh;
+}   
+
+.aboutbox{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    background-color: transparent;
+    color: white;
+}
+.aboutleft{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    background-color: transparent;
+}
+.aboutright{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+}
+.aboutleft img{
+    width:60%;
+    height: 100%;
+    border-radius:20vh ;
+}
+
+.aboutleft img:hover{
+    transform: scale(1.1);
+    border-radius: 2vh;
+    transition: 0.6s ease-in-out;
+}
